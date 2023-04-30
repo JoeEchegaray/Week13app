@@ -94,6 +94,7 @@
   margin-top: 5px;
   margin-right: 5px;
   font-size: 25px;
+  /* background-color: bisque; */
 }
 
 .formContainer input {
@@ -113,8 +114,8 @@
 }
 
 .formContainer button:hover{
-  background-color: navy;
+  background-color: black;
   color: white;
   border-width: 2px;
-  border-color: black;
+  border-color: white;
 }
