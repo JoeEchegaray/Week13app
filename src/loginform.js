@@ -3,19 +3,19 @@ import './App.css'
 export default function Loginform() {
     return (
         <div className="formContainer">
-            <h3 className='formHeader'>Login</h3>
-            <div className="loginForm">
-                <div className="inputContainer">
+            <h3>Login</h3>
+            <div>
+                <div>
                     <form>
-                        <label className='formLabel'>
+                        <label>
                             Username:
-                            <input className='formInput' type='text' name='username'></input>
+                            <input type='text' name='username'></input>
                         </label> <br />
-                        <label className='formLabel'>
+                        <label>
                             Password:
-                            <input className='formInput' type='password' name='password'></input>
+                            <input type='password' name='password'></input>
                         </label> <br />
-                        <input className="formButton" type="submit" value="Login" />
+                        <button type="submit" id="login" className="loginBtn">Login</button>
                     </form>
                 </div>
             </div >

@@ -2,10 +2,10 @@
   text-align: center;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
+} */
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -28,14 +28,14 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} */
 
 /* This is the Nav Bar Section */
 .Navbar {
@@ -52,6 +52,9 @@
   color: white;
   font-style: normal;
   text-decoration: none;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 20px;
 }
 
 .navLinks {
@@ -74,31 +77,44 @@
 /* This is the section for the Login Form */
 
 .formContainer {
-  background-color: #61dafb77;
+  background-color: #00000047;
   border-radius: 8px;
-  padding: 3%;
+  padding: 25px;
+  align-items: center;
+  vertical-align: middle;
 }
 
-
-.formHeader {
-  margin-bottom: 10px;
+.formContainer h3 {
+  margin-bottom: 20px;
   font-weight: bold;
   font-size: .5in;
 }
 
-.formLabel {
+.formContainer label {
   margin-top: 5px;
-  margin-bottom: 10rem;
+  margin-right: 5px;
   font-size: 25px;
-  background-color: bisque;
 }
 
-/* .formInput {
-  margin-left: 5px;
+.formContainer input {
+  margin-left: 15px;
   margin-bottom: 10px;
-} */
-
-.formButton {
   font-size: 20px;
-  margin-top: 5px;
+} 
+
+.formContainer button {
+  background-color: white;
+  font-size: 20px;
+  margin-top: 15px;
+  padding: 10px;
+  border-width: 2px;
+  border-color: black;
+  border-radius: 8px;
+}
+
+.formContainer button:hover{
+  background-color: navy;
+  color: white;
+  border-width: 2px;
+  border-color: black;
 }
