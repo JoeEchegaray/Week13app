@@ -36,3 +36,69 @@
     transform: rotate(360deg);
   }
 }
+
+/* This is the Nav Bar Section */
+.Navbar {
+  background-color: #0f1114;
+  font-weight: bold;
+  font-size: x-large;
+  color: white;
+  display: flex;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.navHeader {
+  color: white;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.navLinks {
+  list-style: none;
+  display: inline-flex;
+}
+
+.navLink {
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.navLink:hover {
+  color: #61dafb;
+}
+
+
+/* This is the section for the Login Form */
+
+.formContainer {
+  background-color: #61dafb77;
+  border-radius: 8px;
+  padding: 3%;
+}
+
+
+.formHeader {
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: .5in;
+}
+
+.formLabel {
+  margin-top: 5px;
+  margin-bottom: 10rem;
+  font-size: 25px;
+  background-color: bisque;
+}
+
+/* .formInput {
+  margin-left: 5px;
+  margin-bottom: 10px;
+} */
+
+.formButton {
+  font-size: 20px;
+  margin-top: 5px;
+}
